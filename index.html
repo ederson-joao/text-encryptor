@@ -22,14 +22,14 @@
     <main class="main">
         <div class="input">
             <div class="input-text">
-                <textarea id="text-input" cols="30" rows="13" placeholder="Digite seu texto..."></textarea>
+                <textarea name="text-input" id="text-input" cols="30" rows="13" placeholder="Digite seu texto..."></textarea>
             </div>
 
             <p>ⓘ Apenas letras minúsculas e sem acento.</p>
             
             <div class="buttons">
-                <button class="encrypt">Criptografar</button>
-                <button class="decrypt">Descriptografar</button>
+                <button class="encrypt" onclick="encryptButton()">Criptografar</button>
+                <button class="decrypt" onclick="decryptButton()">Descriptografar</button>
             </div>
         </div>
 
@@ -44,13 +44,14 @@
             </div>
 
             <div class="output-text">
-                <textarea id="text-output" cols="30" rows="20"></textarea>
-                <button class="copy">Copiar texto</button>
+                <textarea name="text-output" id="text-output" cols="30" rows="20"></textarea>
+                <button class="copy" onclick="copyText()">Copiar texto</button>
             </div>
         </div>
         
     </main>
     <!-- JS -->
+    <script src="./assets/js/app.js"></script>
 </body>
 <footer></footer>
 </html>
