@@ -1,0 +1,186 @@
+body {
+    background-color: #e7e9fc;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #b2b0f7; 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1.25rem;
+}
+
+.input{
+    background-color: #fefefe;
+    border-radius: 1.25rem;
+    text-align: center;
+    margin-bottom: 0.625rem;
+    padding: 1.25rem 1.25rem;
+    
+}
+
+.input-text textarea {
+    border: none;
+    width: 100%;
+    font-size: 28px;
+    color: #b2b0f7;
+    resize: none;
+}
+
+.input-text textarea::placeholder {
+    color: #b2b0f7;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encrypt, .decrypt, .copy {
+
+    padding: 0.938rem;
+    width: 12.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #b2b0f7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.encrypt{
+    margin-bottom: 0.625rem;
+    background: #b2b0f7;
+    color: #fefefe;
+}
+
+.decrypt{
+    margin-top: 0.625rem;
+    background: #fefefe;
+    color: #b2b0f7;
+}
+
+.copy {
+    margin-top: 0.625rem;
+    background: #b2b0f7;
+    color: #fefefe;
+}
+
+.output {
+    border-radius: 1.25rem;
+    padding: 1.25rem 1.25rem;
+    margin-top: 0.625rem;
+    background-color: #fefefe;
+    
+}
+
+.output-text-empty {
+    text-align: center;
+}
+
+.output-text-empty img {
+    display: none;
+}
+
+.output-text {
+    text-align: center;
+    background: #fefefe;
+    border-radius: 1.25rem;
+}
+
+.output-text textarea {
+    width: 100%;
+    color: #b2b0f7;
+    font-size: 28px;
+    resize: none;
+    border: none;
+}
+
+@media screen and (min-width: 505px) and (max-width: 1023px) {
+    .buttons {
+        display: inline flow;
+    }
+
+    .encrypt{
+        margin-right: 0.625rem;
+    }
+    
+    .decrypt{
+        margin-left: 0.625rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1101px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .input, .output {
+        width: 40%;
+        margin: 0;
+    }
+
+    .output-text-empty img {
+        display: block;
+        margin: auto;
+    }
+
+    .copy {
+        margin-top: 3rem;
+    }
+
+    .output-text textarea {
+        max-height: 422.44px;
+    }
+}
+
+@media screen and (min-width: 1102px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buttons {
+        display: inline flow;
+    }
+
+    .encrypt{
+        margin-right: 0.625rem;
+    }
+    
+    .decrypt{
+        margin-left: 0.625rem;
+    }
+
+    .copy {
+        margin-top: 3rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .input, .output {
+        width: 40%;
+        margin: 0;
+    }
+
+    .output-text-empty img {
+        display: block;
+        margin: auto;
+    }
+
+    .output-text textarea {
+        max-height: 422.44px;
+    }
+}
