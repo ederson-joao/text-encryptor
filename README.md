@@ -18,11 +18,8 @@ As "chaves" de criptografia utilizadas são:
 * JavaScript
 
 # :gear: Testes
-Teste da criptografia e descriptografia.
 
-https://github.com/ederson-joao/text-encryptor/assets/111246046/13f801fd-817c-482f-8273-08072e3b7b9a
+https://github.com/ederson-joao/text-encryptor/assets/111246046/5cbffe73-1851-41b3-808e-3f95be55211e
 
-Teste de responsividade.
-
-https://github.com/ederson-joao/text-encryptor/assets/111246046/517d0059-6bfa-4193-a1b3-240e5122d76f
+https://github.com/ederson-joao/text-encryptor/assets/111246046/c3e42f50-b55e-486d-b509-66abb959a1db
 
