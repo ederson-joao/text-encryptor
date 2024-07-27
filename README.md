@@ -1,4 +1,4 @@
-# :rocket: Pokédex
+# :rocket: Text Encryptor
 Projeto decodificador de texto desenvolvido no Challenge ONE - Decodificador de Texto, no Programa ONE de parceria da Oracle com a Alura.
 
 Objetivo do projeto era criar uma aplicação que criptografa textos, onde foi disponibilizado um figma para seguirmos de exemplo, tendo dois campos no projeto, um de entrada de texto e outro de saida de texto, e enquanto não houvesse
